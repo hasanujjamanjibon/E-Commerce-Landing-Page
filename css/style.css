@@ -8,12 +8,12 @@
 }
 
 .text-purple {
-  color: #c70590 !important;
+  color: #3905c7 !important;
 }
 
 /* Navbar */
 .active {
-  color: #c70590 !important;
+  color: #3905c7 !important;
 }
 .navbar {
   background-color: #e3e6f3;
@@ -23,7 +23,7 @@
   position: absolute;
   height: 2px;
   width: 100%;
-  background-color: #dd06a0;
+  background-color: #3303b4;
   left: 0;
   top: 100%;
 }
@@ -39,7 +39,7 @@
   position: absolute;
   height: 2px;
   width: 0%;
-  background-color: #dd06a0;
+  background-color: #3905c7;
   left: 0;
   top: 100%;
   transition: all 0.3s ease-in-out;
@@ -50,7 +50,7 @@
 .nav-link:hover::before {
   width: 100%;
   opacity: 1;
-  color: #c70590 !important;
+  color: #3905c7 !important;
 }
 
 /* Banner section style */
@@ -71,7 +71,7 @@
   width: 200px;
   padding: 5px 15px;
   background-color: transparent;
-  color: #c70590 !important;
+  color: #3905c7 !important;
 }
 
 .product-card {
@@ -92,4 +92,16 @@
 }
 .cart-component:hover .fa-cart-shopping {
   color: white !important;
+}
+
+/* new arrival banner */
+
+.newarrival_banner {
+  background-image: url('../img/banner/b2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  margin: 50px 0;
 }
