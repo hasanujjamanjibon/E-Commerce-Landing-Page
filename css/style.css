@@ -118,3 +118,13 @@
   top: 40%;
   left: 50px;
 }
+
+.newslatter {
+  background-image: url('../img/banner/b2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  margin: 50px 0;
+}
