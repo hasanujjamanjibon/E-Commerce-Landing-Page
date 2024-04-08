@@ -1,0 +1,39 @@
+.active {
+  color: #c70590 !important;
+}
+.active::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #dd06a0;
+  left: 0;
+  top: 100%;
+}
+.nav-link {
+  position: relative;
+  margin: 0 5px;
+  display: inline-block;
+  width: min-content;
+}
+/* .nav-link {
+  display: inline-block;
+} */
+.nav-link:not(.active)::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background-color: #dd06a0;
+  left: 0;
+  top: 100%;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.nav-link:hover,
+.nav-link:hover::before {
+  width: 100%;
+  opacity: 1;
+  color: #c70590 !important;
+}
