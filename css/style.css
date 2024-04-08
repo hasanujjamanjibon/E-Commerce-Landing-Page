@@ -56,12 +56,17 @@
 
 /* Banner section style */
 .banner_section {
-  height: 88vh;
+  height: 92vh;
   width: 100%;
   background-image: url(../img/hero4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+}
+@media only screen and (max-width: 768px) {
+  .banner_section {
+    background-position: center right;
+  }
 }
 .hero_button {
   background-image: url(../img/button.png);
@@ -147,7 +152,7 @@
   background-position: center;
   padding: 20px 90px;
 }
-.btn-payments{
+.btn-payments {
   background-image: url('../img/pay/pay.png');
   background-repeat: no-repeat;
   background-size: cover;
